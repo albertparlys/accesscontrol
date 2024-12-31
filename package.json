@@ -1,6 +1,6 @@
 {
-  "name": "accesscontrol",
-  "version": "2.2.1",
+  "name": "@albertparlys/accesscontrol",
+  "version": "2.3.1",
   "description": "Role and Attribute based Access Control for Node.js",
   "main": "./index.js",
   "directories": {
@@ -59,7 +59,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/onury/accesscontrol.git"
+    "url": "git+https://github.com/albertparlys/accesscontrol.git"
+  },
+  "publishConfig": {
+    "publish-package": "npm publish",
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "access",
@@ -92,11 +96,17 @@
     "context"
   ],
   "author": "Onur Yildirim <onur@cutepilot.com>",
+  "maintainers": [
+    {
+      "name": "Albert Parlys",
+      "email": "albertparlys@gmail.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/onury/accesscontrol/issues"
+    "url": "https://github.com/albertparlys/accesscontrol/issues"
   },
-  "homepage": "https://github.com/onury/accesscontrol#readme",
+  "homepage": "https://github.com/albertparlys/accesscontrol#readme",
   "devDependencies": {
     "@types/jest": "^22.1.3",
     "@types/node": "^9.4.6",
@@ -111,6 +121,7 @@
     "typescript": "^2.7.2"
   },
   "dependencies": {
+    "@changesets/cli": "^2.27.11",
     "notation": "^1.3.6"
   }
 }
